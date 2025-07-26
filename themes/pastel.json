@@ -156,21 +156,21 @@
     },
     {
       "name": "String",
-      "scope": ["string"],
+      "scope": ["string", "constant.other.symbol", "constant.other.key"],
       "settings": {
         "foreground": "#98FB98"
       }
     },
     {
       "name": "Number",
-      "scope": ["constant.numeric"],
+      "scope": ["constant.numeric", "constant.language.boolean"],
       "settings": {
         "foreground": "#F0E68C"
       }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
+      "scope": ["keyword", "storage.type"],
       "settings": {
         "foreground": "#DDA0DD",
         "fontStyle": "bold"
@@ -186,7 +186,7 @@
     },
     {
       "name": "Class",
-      "scope": ["entity.name.class", "entity.name.type"],
+      "scope": ["entity.name.class", "entity.name.type", "support.class"],
       "settings": {
         "foreground": "#F5DEB3",
         "fontStyle": "bold"
@@ -194,7 +194,7 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable"],
+      "scope": ["variable", "variable.other"],
       "settings": {
         "foreground": "#B0E0E6"
       }
@@ -208,28 +208,32 @@
     },
     {
       "name": "Property",
-      "scope": ["variable.other.property"],
+      "scope": ["variable.other.property", "support.type.property-name"],
       "settings": {
         "foreground": "#90EE90"
       }
     },
     {
       "name": "Constant",
-      "scope": ["constant"],
+      "scope": ["constant", "constant.character.escape"],
       "settings": {
         "foreground": "#FFDAB9"
       }
     },
     {
       "name": "Operator",
-      "scope": ["keyword.operator"],
+      "scope": ["keyword.operator", "punctuation.separator"],
       "settings": {
         "foreground": "#DA70D6"
       }
     },
     {
       "name": "HTML Tag",
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag",
+        "markup.changed",
+        "entity.other.attribute-name.html"
+      ],
       "settings": {
         "foreground": "#FA8072"
       }

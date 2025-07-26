@@ -1,5 +1,5 @@
 {
-  "name": "Null Theme - Electric",
+  "name": "Null Theme - Electric Enhanced",
   "type": "dark",
   "colors": {
     "editor.background": "#050510",
@@ -150,7 +150,7 @@
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
-        "foreground": "#999999",
+        "foreground": "#888888",
         "fontStyle": "italic"
       }
     },
@@ -158,22 +158,40 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#87CEEB"
+        "foreground": "#7FFFD4", // brighter aquamarine for strings
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#FFA500"
+        "foreground": "#FFA500",
+        "fontStyle": "bold"
       }
     },
     {
-      "name": "Keyword",
-      "scope": ["keyword"],
+      "name": "Keyword - Control",
+      "scope": ["keyword.control"],
       "settings": {
         "foreground": "#FFD700",
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Keyword - Declaration",
+      "scope": ["keyword.declaration"],
+      "settings": {
+        "foreground": "#FFAA00",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword - Export Default",
+      "scope": ["keyword.export", "keyword.default"],
+      "settings": {
+        "foreground": "#FF4500",
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -181,7 +199,7 @@
       "scope": ["entity.name.function", "support.function"],
       "settings": {
         "foreground": "#00BFFF",
-        "fontStyle": "bold"
+        "fontStyle": "bold underline"
       }
     },
     {
@@ -203,63 +221,72 @@
       "name": "Parameter",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#F0E68C"
+        "foreground": "#F0E68C",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Property",
       "scope": ["variable.other.property"],
       "settings": {
-        "foreground": "#98FB98"
+        "foreground": "#98FB98",
+        "fontStyle": "underline"
       }
     },
     {
       "name": "Constant",
       "scope": ["constant"],
       "settings": {
-        "foreground": "#DDA0DD"
+        "foreground": "#DDA0DD",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Operator",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#FF6347"
+        "foreground": "#FF6347",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "HTML Tag",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#FF4500"
+        "foreground": "#FF4500",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "HTML Attribute",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#20B2AA"
+        "foreground": "#20B2AA",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "CSS Selector",
       "scope": ["entity.name.tag.css"],
       "settings": {
-        "foreground": "#FF1493"
+        "foreground": "#FF1493",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "CSS Property",
       "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#5F9EA0"
+        "foreground": "#5F9EA0",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "JSON Key",
       "scope": ["support.type.property-name.json"],
       "settings": {
-        "foreground": "#FA8072"
+        "foreground": "#FA8072",
+        "fontStyle": "bold"
       }
     },
     {
@@ -267,21 +294,23 @@
       "scope": ["markup.heading"],
       "settings": {
         "foreground": "#9370DB",
-        "fontStyle": "bold"
+        "fontStyle": "bold underline"
       }
     },
     {
       "name": "Markdown Link",
       "scope": ["markup.underline.link"],
       "settings": {
-        "foreground": "#4169E1"
+        "foreground": "#4169E1",
+        "fontStyle": "underline"
       }
     },
     {
       "name": "Markdown Code",
       "scope": ["markup.inline.raw"],
       "settings": {
-        "foreground": "#7CFC00"
+        "foreground": "#7CFC00",
+        "fontStyle": "bold"
       }
     }
   ]

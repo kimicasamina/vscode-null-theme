@@ -178,7 +178,11 @@
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
       "settings": {
         "foreground": "#1E90FF",
         "fontStyle": "bold"
@@ -239,7 +243,11 @@
     },
     {
       "name": "Import/Export",
-      "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.from"],
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from"
+      ],
       "settings": {
         "foreground": "#FF69B4",
         "fontStyle": "bold"
@@ -306,7 +314,10 @@
     },
     {
       "name": "Template Literal",
-      "scope": ["string.template", "punctuation.definition.template-expression"],
+      "scope": [
+        "string.template",
+        "punctuation.definition.template-expression"
+      ],
       "settings": {
         "foreground": "#40E0D0"
       }

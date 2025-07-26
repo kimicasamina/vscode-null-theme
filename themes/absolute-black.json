@@ -169,11 +169,35 @@
       }
     },
     {
-      "name": "Keyword",
+      "name": "Keyword - General",
       "scope": ["keyword"],
       "settings": {
         "foreground": "#DA70D6",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword - export",
+      "scope": ["keyword.control.export"],
+      "settings": {
+        "foreground": "#FF1493",
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Keyword - default",
+      "scope": ["keyword.control.default"],
+      "settings": {
+        "foreground": "#FF8C00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - function",
+      "scope": ["keyword.control.function"],
+      "settings": {
+        "foreground": "#1E90FF",
+        "fontStyle": "bold underline"
       }
     },
     {
@@ -245,7 +269,8 @@
       "name": "CSS Selector",
       "scope": ["entity.name.tag.css"],
       "settings": {
-        "foreground": "#FF1493"
+        "foreground": "#FF1493",
+        "fontStyle": "bold italic"
       }
     },
     {
