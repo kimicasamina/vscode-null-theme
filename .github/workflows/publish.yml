@@ -3,7 +3,7 @@ name: Publish VS Code Theme
 on:
   push:
     tags:
-      - "v*" # Triggers on version tags like v1.0.1
+      - "v*" # Triggers only when pushing tags like v1.0.1
 
 jobs:
   publish:
@@ -18,10 +18,10 @@ jobs:
         with:
           node-version: 18
 
-      - name: 📦 Install dependencies
-        run: npm install -g vsce
+      - name: 📦 Install vsce globally
+        run: npm install -g @vscode/vsce
 
-      - name: 🚀 Publish to VSCode Marketplace
-        run: vsce publish --pat ${{ secrets.VSCE_TOKEN }}
+      - name: 🚀 Publish to VS Code Marketplace
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+        run: vsce publish --pat $VSCE_TOKEN
