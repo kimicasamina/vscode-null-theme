@@ -150,7 +150,7 @@
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
-        "foreground": "#999999",
+        "foreground": "#AAAAAA",
         "fontStyle": "italic"
       }
     },
@@ -158,84 +158,88 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#00FF44"
+        "foreground": "#00FF66"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#FF8800"
+        "foreground": "#FFA500"
       }
     },
     {
-      "name": "Keyword",
-      "scope": ["keyword"],
+      "name": "Keyword / Control Flow",
+      "scope": ["keyword", "storage.type"],
       "settings": {
-        "foreground": "#FFDD00",
+        "foreground": "#FFD700",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Function",
-      "scope": ["entity.name.function", "support.function"],
+      "name": "Function and Method Names",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
       "settings": {
-        "foreground": "#00DDFF",
+        "foreground": "#00EEFF",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Class",
-      "scope": ["entity.name.class", "entity.name.type"],
+      "name": "Class / Type",
+      "scope": ["entity.name.class", "entity.name.type", "support.class"],
       "settings": {
-        "foreground": "#FFFF00",
-        "fontStyle": "bold"
+        "foreground": "#FFFF55"
       }
     },
     {
       "name": "Variable",
-      "scope": ["variable"],
+      "scope": ["variable", "identifier"],
       "settings": {
         "foreground": "#66FFFF"
       }
     },
     {
-      "name": "Parameter",
+      "name": "Function Parameters",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#FF6666"
+        "foreground": "#FF6A6A",
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "Property",
-      "scope": ["variable.other.property"],
+      "name": "Object Properties",
+      "scope": ["variable.other.property", "meta.object-literal.key"],
       "settings": {
-        "foreground": "#66FF66"
+        "foreground": "#99FF66"
       }
     },
     {
-      "name": "Constant",
-      "scope": ["constant"],
+      "name": "Constants / Enums",
+      "scope": ["constant", "variable.other.constant"],
       "settings": {
-        "foreground": "#FFAA00"
+        "foreground": "#FF9900"
       }
     },
     {
-      "name": "Operator",
-      "scope": ["keyword.operator"],
+      "name": "Operators / Symbols",
+      "scope": ["keyword.operator", "meta.operator"],
       "settings": {
-        "foreground": "#FFDD00"
+        "foreground": "#FFD700"
       }
     },
     {
-      "name": "HTML Tag",
+      "name": "Tags (HTML/XML)",
       "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#FFDD00"
       }
     },
     {
-      "name": "HTML Attribute",
+      "name": "Attributes (HTML/CSS/JSX)",
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#00DDFF"
@@ -245,14 +249,14 @@
       "name": "CSS Selector",
       "scope": ["entity.name.tag.css"],
       "settings": {
-        "foreground": "#FFDD00"
+        "foreground": "#FFCC00"
       }
     },
     {
       "name": "CSS Property",
       "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#00DDFF"
+        "foreground": "#00DDEE"
       }
     },
     {
@@ -274,7 +278,8 @@
       "name": "Markdown Link",
       "scope": ["markup.underline.link"],
       "settings": {
-        "foreground": "#00DDFF"
+        "foreground": "#00DDFF",
+        "fontStyle": "underline"
       }
     },
     {
@@ -282,6 +287,14 @@
       "scope": ["markup.inline.raw"],
       "settings": {
         "foreground": "#00FF44"
+      }
+    },
+    {
+      "name": "Invalid / Deprecated",
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": {
+        "foreground": "#FF3333",
+        "background": "#FF333320"
       }
     }
   ]

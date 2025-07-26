@@ -150,7 +150,7 @@
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
-        "foreground": "#666666",
+        "foreground": "#555577",
         "fontStyle": "italic"
       }
     },
@@ -158,43 +158,45 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#00FF66"
+        "foreground": "#00FF99"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#FF6600"
+        "foreground": "#FFCC33"
       }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
+      "scope": ["keyword", "storage"],
       "settings": {
-        "foreground": "#FF00FF",
+        "foreground": "#FF33CC",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Function",
-      "scope": ["entity.name.function", "support.function"],
+      "name": "Function & Method",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
       "settings": {
-        "foreground": "#00FFFF",
-        "fontStyle": "bold"
+        "foreground": "#33FFFF"
       }
     },
     {
-      "name": "Class",
-      "scope": ["entity.name.class", "entity.name.type"],
+      "name": "Class & Type",
+      "scope": ["entity.name.class", "entity.name.type", "support.class"],
       "settings": {
-        "foreground": "#FFFF00",
-        "fontStyle": "bold"
+        "foreground": "#FFFF66"
       }
     },
     {
       "name": "Variable",
-      "scope": ["variable"],
+      "scope": ["variable", "identifier"],
       "settings": {
         "foreground": "#66FFFF"
       }
@@ -203,40 +205,41 @@
       "name": "Parameter",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#FF6666"
+        "foreground": "#FF6666",
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "Property",
-      "scope": ["variable.other.property"],
+      "name": "Property / Object Keys",
+      "scope": ["variable.other.property", "meta.object-literal.key"],
       "settings": {
-        "foreground": "#66FF66"
+        "foreground": "#99FF66"
       }
     },
     {
       "name": "Constant",
-      "scope": ["constant"],
+      "scope": ["constant", "variable.other.constant"],
       "settings": {
-        "foreground": "#FF9900"
+        "foreground": "#FF9933"
       }
     },
     {
       "name": "Operator",
-      "scope": ["keyword.operator"],
+      "scope": ["keyword.operator", "meta.operator"],
       "settings": {
-        "foreground": "#FF00FF"
+        "foreground": "#FF33FF"
       }
     },
     {
-      "name": "HTML Tag",
+      "name": "Tag (HTML/XML)",
       "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#FF00FF"
       }
     },
     {
-      "name": "HTML Attribute",
-      "scope": ["entity.other.attribute-name"],
+      "name": "Attribute (HTML/CSS)",
+      "scope": ["entity.other.attribute-name", "support.type.property-name"],
       "settings": {
         "foreground": "#00FFFF"
       }
@@ -252,21 +255,21 @@
       "name": "CSS Property",
       "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#00FFFF"
+        "foreground": "#00FFCC"
       }
     },
     {
       "name": "JSON Key",
       "scope": ["support.type.property-name.json"],
       "settings": {
-        "foreground": "#FF00FF"
+        "foreground": "#FF33FF"
       }
     },
     {
       "name": "Markdown Heading",
       "scope": ["markup.heading"],
       "settings": {
-        "foreground": "#FF00FF",
+        "foreground": "#FF66FF",
         "fontStyle": "bold"
       }
     },
@@ -274,14 +277,24 @@
       "name": "Markdown Link",
       "scope": ["markup.underline.link"],
       "settings": {
-        "foreground": "#00FFFF"
+        "foreground": "#66CCFF",
+        "fontStyle": "underline"
       }
     },
     {
       "name": "Markdown Code",
       "scope": ["markup.inline.raw"],
       "settings": {
-        "foreground": "#00FF66"
+        "foreground": "#00FF66",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Invalid / Deprecated",
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": {
+        "foreground": "#FF0033",
+        "background": "#FF003320"
       }
     }
   ]

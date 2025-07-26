@@ -150,7 +150,7 @@
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
-        "foreground": "#666699",
+        "foreground": "#7777AA",
         "fontStyle": "italic"
       }
     },
@@ -158,87 +158,92 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#66FF99"
+        "foreground": "#66FFAA"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#FF9966"
+        "foreground": "#FFAA66"
       }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
+      "scope": ["keyword", "storage.type"],
       "settings": {
         "foreground": "#FF99FF",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Function",
-      "scope": ["entity.name.function", "support.function"],
+      "name": "Function / Method",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
       "settings": {
         "foreground": "#9999FF",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Class",
+      "name": "Class / Type",
       "scope": ["entity.name.class", "entity.name.type"],
       "settings": {
-        "foreground": "#FFFF99",
+        "foreground": "#FFFFAA",
         "fontStyle": "bold"
       }
     },
     {
       "name": "Variable",
-      "scope": ["variable"],
+      "scope": ["variable", "identifier"],
       "settings": {
         "foreground": "#CCCCFF"
       }
     },
     {
-      "name": "Parameter",
+      "name": "Function Parameter",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#FFCCCC"
+        "foreground": "#FFBBDD",
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "Property",
-      "scope": ["variable.other.property"],
+      "name": "Property / Key",
+      "scope": ["variable.other.property", "meta.object-literal.key"],
       "settings": {
-        "foreground": "#CCFFCC"
+        "foreground": "#BBFFBB"
       }
     },
     {
-      "name": "Constant",
-      "scope": ["constant"],
+      "name": "Constant / Enum",
+      "scope": ["constant", "variable.other.constant"],
       "settings": {
         "foreground": "#FFCC99"
       }
     },
     {
-      "name": "Operator",
-      "scope": ["keyword.operator"],
+      "name": "Operator / Symbol",
+      "scope": ["keyword.operator", "meta.operator"],
       "settings": {
         "foreground": "#FF99FF"
       }
     },
     {
-      "name": "HTML Tag",
+      "name": "HTML / XML Tag",
       "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#FF99FF"
       }
     },
     {
-      "name": "HTML Attribute",
+      "name": "Attribute (HTML, JSX)",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#9999FF"
+        "foreground": "#AAAAFF"
       }
     },
     {
@@ -274,7 +279,8 @@
       "name": "Markdown Link",
       "scope": ["markup.underline.link"],
       "settings": {
-        "foreground": "#9999FF"
+        "foreground": "#9999FF",
+        "fontStyle": "underline"
       }
     },
     {
@@ -282,6 +288,14 @@
       "scope": ["markup.inline.raw"],
       "settings": {
         "foreground": "#66FF99"
+      }
+    },
+    {
+      "name": "Invalid / Deprecated",
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": {
+        "foreground": "#FF3366",
+        "background": "#FF336620"
       }
     }
   ]
