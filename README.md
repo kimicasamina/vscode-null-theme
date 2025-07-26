@@ -1,162 +1,90 @@
-# Null Theme for VSCode
+# Null Theme Collection
 
-A cyberpunk-inspired VSCode theme with bright neon colors, clear contrast, and frameless minimal chrome. Features two variants with absolute black and near-black backgrounds inspired by Cyberpunk 2077 and Level Up aesthetics.
+> **Cyberpunk-inspired VSCode themes with enhanced contrast and frameless minimal chrome**
 
-## Features
+A collection of dark themes designed for developers who prefer high-contrast, cyberpunk aesthetics with clear visual distinction between different code elements.
 
-- 🎨 **Bright Neon Colors**: Eye-catching cyberpunk syntax highlighting
-- 🖤 **8 Unique Variants**: Different color intensities and moods
-- 🎯 **Clear Contrast**: High contrast for better readability
-- 🔲 **Frameless Design**: Minimal chrome with uniform dark backgrounds
-- 📁 **Enhanced Git Indicators**: Clear visual indicators for modified/added/deleted files
-- 🌈 **Cyberpunk Aesthetic**: Inspired by Cyberpunk 2077 and synthwave aesthetics
+![Null Theme Banner](https://img.shields.io/badge/Theme-Null%20Collection-FF00FF?style=for-the-badge&logo=visual-studio-code)
 
-## Theme Variants
+## ✨ Key Features
 
-### **Absolute Black** - Pure void background
+- **🔍 Enhanced Contrast**: All syntax elements have distinct, high-contrast colors
+- **🎯 Clear Token Differentiation**: Each code element has a unique, easily distinguishable color
+- **🌈 Rich Color Palette**: Extensive color range for better code comprehension
+- **⚡ Cyberpunk Aesthetic**: Inspired by Cyberpunk 2077 and retro-futuristic themes
+- **🖼️ Frameless Design**: Minimal chrome for distraction-free coding
+- **📱 Multi-Language Support**: Optimized for JavaScript, TypeScript, Python, HTML, CSS, JSON, Markdown, and more
 
-- Background: `#000000` (absolute black)
-- Primary colors: Cyan, magenta, bright green
-- Perfect for OLED displays and maximum contrast
+## 🔧 Customization
 
-### **Near Black** - Slightly softer darkness
-
-- Background: `#0A0A0A` (near black)
-- Similar to Absolute Black but with subtle depth
-- Easier on the eyes for extended coding sessions
-
-### **Vivid** - Ultra-bright saturation
-
-- Background: `#0D0D0D`
-- Maximum saturation neon colors
-- For those who want colors that pop off the screen
-
-### **Muted** - Soft and refined
-
-- Background: `#0F0F0F`
-- Desaturated cyberpunk colors
-- Professional look with cyberpunk DNA
-
-### **Pastel** - Gentle neon glow
-
-- Background: `#1A1A1F`
-- Soft pastel versions of cyberpunk colors
-- Easy on the eyes while maintaining the aesthetic
-
-### **Electric** - High-energy brightness
-
-- Background: `#050510`
-- Electric blue and yellow focus
-- Lightning-inspired color palette
-
-### **Midnight** - Deep blues and purples
-
-- Background: `#0D0D1A`
-- Purple and blue dominant palette
-- Nighttime coding atmosphere
-
-### **Synthwave** - Classic 80s aesthetic
-
-- Background: `#0F0F1F`
-- Pink and cyan 80s synthwave colors
-- Pure retro-futurism vibes
-
-## Color Palette
-
-### Primary Colors
-
-- **Cyan**: `#00FFFF` - Functions, main text
-- **Magenta**: `#FF00FF` - Keywords, active elements
-- **Bright Green**: `#00FF66` - Strings
-- **Yellow**: `#FFFF00` - Classes, modified files
-- **Orange**: `#FF6600` - Numbers, constants
-
-### Git Status Colors
-
-- **Modified**: `#FFFF00` (Yellow)
-- **Added/Untracked**: `#00FF66` (Green)
-- **Deleted**: `#FF0066` (Red)
-- **Conflicting**: `#FF6600` (Orange)
-
-## Installation
-
-### Method 1: Manual Installation
-
-1. Copy the `null-theme` folder to your VSCode extensions directory:
-
-   - **macOS**: `~/.vscode/extensions/`
-   - **Windows**: `%USERPROFILE%\.vscode\extensions\`
-   - **Linux**: `~/.vscode/extensions/`
-
-2. Restart VSCode
-
-3. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
-
-4. Type "Preferences: Color Theme" and select it
-
-5. Choose from any of the 8 variants:
-   - "Null Theme - Absolute Black"
-   - "Null Theme - Near Black"
-   - "Null Theme - Vivid"
-   - "Null Theme - Muted"
-   - "Null Theme - Pastel"
-   - "Null Theme - Electric"
-   - "Null Theme - Midnight"
-   - "Null Theme - Synthwave"
-
-### Method 2: Package as VSIX (Advanced)
-
-```bash
-# Install vsce if you haven't already
-npm install -g vsce
-
-# Navigate to the theme directory
-cd null-theme
-
-# Package the theme
-vsce package
-
-# Install the generated .vsix file
-code --install-extension null-theme-1.0.0.vsix
-```
-
-## Configuration
-
-For the best frameless experience, add these settings to your VSCode `settings.json`:
+Each theme can be further customized by modifying the JSON files:
 
 ```json
 {
-  "window.titleBarStyle": "native",
-  "workbench.colorTheme": "Null Theme - Absolute Black",
-  "editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.5,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": true,
-  "editor.minimap.showSlider": "always"
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#B0E0E6"
+  },
+  "tokenColors": [
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#E9967A"
+      }
+    }
+  ]
 }
 ```
 
-## Screenshots
+## 🍰 Pastel
 
-The theme provides vibrant neon syntax highlighting perfect for:
+![Pastel Screenshot](./assets/pastel.png)
 
-- JavaScript/TypeScript
-- Python
-- HTML/CSS
-- JSON
-- Markdown
-- And many more languages
+## 🌑 Near Black
 
-## Contributing
+![Black Screenshot](./assets/near-black.png)
 
-Feel free to open issues or submit pull requests if you find any bugs or have suggestions for improvements.
+## 🌫️ Muted
 
-## License
+![Muted Screenshot](./assets/muted.png)
 
-MIT License - feel free to use and modify as needed.
+## 🌈 Vivid
 
----
+![Vivid Screenshot](./assets/vivid.png)
 
-_Embrace the void. Code in neon._
+## 🕹 Synthwave
+
+![Synthwave Screenshot](./assets/synthwave.png)
+
+## ⚡ Electric
+
+![Electric Screenshot](./assets/electric.png)
+
+## ⬛ Absolute Black
+
+![Absolute Black Screenshot](./assets/absolute-black.png)
+
+## 🌌 Midnight
+
+![Midnight Screenshot](./assets/midnight.png)
+
+### Absolute Black
+
+- Pure black background with maximum contrast
+- Perfect for OLED displays
+
+### Electric
+
+- Electric blue and yellow combination
+- High-energy coding experience
+
+### Synthwave
+
+- Neon lights of the 80s
+- Inspired by retro-futurism
+
+### Pastel
+
+- Soothing colors
+- Perfect for low-light environments
