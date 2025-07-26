@@ -4,3 +4,5 @@ assets/**
 *.xcf
 .vscode/
 *.md
+key.txt
+!assets/icon.png

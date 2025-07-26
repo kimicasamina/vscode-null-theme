@@ -1,19 +1,31 @@
-# Null Theme Collection
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kimicasamina/vscode-null-theme/main/assets/banner.png" alt="Null Theme Banner" />
+</p>
 
-> **Cyberpunk-inspired VSCode themes with enhanced contrast and frameless minimal chrome**
+<h1 align="center">🧱 Null Theme Collection</h1>
 
-A collection of dark themes designed for developers who prefer high-contrast, cyberpunk aesthetics with clear visual distinction between different code elements.
+<p align="center">
+  <strong>Cyberpunk-inspired VS Code themes with enhanced contrast and frameless minimal chrome.</strong>
+</p>
 
-![Null Theme Banner](https://img.shields.io/badge/Theme-Null%20Collection-FF00FF?style=for-the-badge&logo=visual-studio-code)
+<p align="center">
+  <img alt="VS Code" src="https://img.shields.io/badge/Editor-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge">
+  <img alt="Null Theme" src="https://img.shields.io/badge/Theme-Null%20Collection-FF00FF?style=for-the-badge&logo=visual-studio-code">
+</p>
 
-## ✨ Key Features
+---
 
-- **🔍 Enhanced Contrast**: All syntax elements have distinct, high-contrast colors
-- **🎯 Clear Token Differentiation**: Each code element has a unique, easily distinguishable color
-- **🌈 Rich Color Palette**: Extensive color range for better code comprehension
-- **⚡ Cyberpunk Aesthetic**: Inspired by Cyberpunk 2077 and retro-futuristic themes
-- **🖼️ Frameless Design**: Minimal chrome for distraction-free coding
-- **📱 Multi-Language Support**: Optimized for JavaScript, TypeScript, Python, HTML, CSS, JSON, Markdown, and more
+## ✨ Features
+
+- 🔍 **Enhanced Contrast** – Syntax elements with clear, bold color separation
+- 🎯 **Clear Token Differentiation** – Easy to distinguish variables, functions, and types
+- 🌈 **Rich Neon Palette** – Cyberpunk vibes, vivid pastels, and soft contrasts
+- 🖥 **OLED-Friendly** – Especially with the Absolute Black variant
+- 🌐 **Multi-Language Support** – JavaScript, TypeScript, Python, HTML, CSS, JSON, Markdown, and more
+- 🖼 **Frameless Design** – Minimal borders and chrome for a distraction-free workspace
+
+---
 
 ## 🔧 Customization
 
@@ -102,3 +114,11 @@ Or install via CLI:
 ```bash
 code --install-extension kimberlycasamina.null-theme
 ```
+
+📁 Repository
+GitHub: kimicasamina/vscode-null-theme
+
+VSCode Marketplace: Null Theme Collection
+
+🔖 License
+MIT License © 2025 Kimberly Casamina
