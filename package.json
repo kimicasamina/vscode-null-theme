@@ -2,7 +2,7 @@
   "name": "null-theme",
   "displayName": "Null Theme",
   "description": "Cyberpunk-inspired theme with bright neon colors, clear contrast, and frameless minimal chrome. Features absolute black and near-black variants.",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "publisher": "kimberlycasamina",
   "engines": {
     "vscode": "^1.60.0"
