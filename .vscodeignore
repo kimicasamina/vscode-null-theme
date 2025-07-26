@@ -1,9 +1,5 @@
-assets/**
-*.png
 *.psd
 *.xcf
 .vscode/
 *.md
-!assets/icon.png
-!assets/banner.png
 dev_notes.md
