@@ -6,3 +6,4 @@ assets/**
 *.md
 key.txt
 !assets/icon.png
+!assets/banner.png
