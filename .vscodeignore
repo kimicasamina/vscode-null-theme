@@ -4,6 +4,6 @@ assets/**
 *.xcf
 .vscode/
 *.md
-key.txt
 !assets/icon.png
 !assets/banner.png
+dev_notes.md
