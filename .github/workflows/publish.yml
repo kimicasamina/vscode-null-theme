@@ -24,4 +24,4 @@ jobs:
       - name: 🚀 Publish to VS Code Marketplace
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-        run: vsce publish --pat $VSCE_TOKEN
+        run: vsce publish --pat ${{ secrets.VSCE_TOKEN }}
