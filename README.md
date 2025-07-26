@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kimicasamina/vscode-null-theme/main/assets/banner.png" alt="Null Theme Banner" />
+  <img src="https://raw.githubusercontent.com/kimicasamina/vscode-null-theme/main/assets/banner.jpg" alt="Null Theme Banner" />
 </p>
 
 <h1 align="center">🧱 Null Theme Collection</h1>
