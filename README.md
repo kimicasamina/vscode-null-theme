@@ -88,3 +88,17 @@ Each theme can be further customized by modifying the JSON files:
 
 - Soothing colors
 - Perfect for low-light environments
+
+## 🧪 Installation
+
+From VSCode:
+
+1. Open Extensions sidebar (`Ctrl+Shift+X`)
+2. Search for **"Null Theme"**
+3. Click **Install** on your preferred variant
+
+Or install via CLI:
+
+```bash
+code --install-extension kimberlycasamina.null-theme
+```

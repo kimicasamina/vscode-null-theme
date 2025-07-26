@@ -11,12 +11,16 @@
     "Themes"
   ],
   "keywords": [
-    "cyberpunk",
-    "neon",
     "dark",
+    "null",
+    "theme",
+    "cyberpunk",
+    "vscode-theme",
     "black",
-    "frameless",
-    "minimal"
+    "minimal",
+    "contrast",
+    "pastel",
+    "synthwave"
   ],
   "contributes": {
     "themes": [
